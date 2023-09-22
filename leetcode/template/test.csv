@@ -1,3 +1,3 @@
 a,b,expected
-abc,0,true
-def,1,false
+abc,0,1|2|3,true
+def,1,0|-1|-2,false

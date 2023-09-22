@@ -15,6 +15,7 @@ if __name__ == "__main__":
         for test_row in reader:
             a = str(test_row["a"])
             b = int(test_row["b"])
+            c = [int(n) for n in test_row["nums"].split("|")]
             expected = {"true": True, "false": False}[test_row["expected"]]
 
             actual = solution.solve(a, b)
