@@ -1,0 +1,3 @@
+a,b,expected
+abc,0,true
+def,1,false
